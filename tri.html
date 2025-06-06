@@ -1,0 +1,846 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TRILIVE</title>
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- FONTAWESOME CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- FANCYBOX CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- MAIN CSS STYLES -->
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!-- 30 april 2025 Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5XFZD5CR');</script>
+<!-- End Google Tag Manager -->
+</head>
+ 
+<body>
+    <!-- 30 april 2025 Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5XFZD5CR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <header class="main-header bg-white shadow-sm">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-xl">
+                <a class="navbar-brand" href="#"><img class="img-fluid" src="images/trilive-logo.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav me-0 ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#whyinvest">Why Invest</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#amenities">Amenities</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#location">Location</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#partner">Partner</a></li>
+                        <li class="nav-item"><a class="btn btn-dark" href="tel:+918130776222"><i class="fa-solid fa-phone me-1"></i> 8130776222</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ################################################################################################## -->
+    <!-- ################################################################################################## -->
+    <style>
+        /*HERO VIDEO Starts*/
+        .hero-section video.hero-video {width: 100%; height: auto; /*object-fit:cover;*/}
+        .hero-section .video-desktop{display: block;}
+        .hero-section .video-mobile{display: none;}
+        @media (max-width: 576.98px) {
+            .hero-section .video-desktop{display: none;}
+            .hero-section .video-mobile{display: block;}
+        }
+        /*HERO VIDEO Ends*/
+    </style>
+    <section class="hero-section swiper bg-deep-forest">
+        <div class="swiper-wrapper">
+        
+         <div class="swiper-slide">
+                <picture>
+                    <source srcset="images/trilive-website-banner.jpg" media="(min-width: 768px)">
+                    <source srcset="images/trilive-website-banner-mobile.jpg" media="(max-width: 767px)">
+                    <img class="w-100" src="images/trilive-website-banner.jpg" alt="Trilive">
+                </picture>
+            </div> 
+        
+            <div class="swiper-slide">
+                <picture>
+                    <source srcset="images/Trilive-Teaser-banner-01.jpg" media="(min-width: 768px)">
+                    <source srcset="images/hero-mobile-1.jpg" media="(max-width: 767px)">
+                    <img class="w-100" src="images/Trilive-Teaser-banner-01.jpg" alt="Trilive">
+                </picture>
+            </div>
+            
+            <div class="swiper-slide">
+                <picture>
+                    <source srcset="images/Trilive-Teaser-banner-03.jpg" media="(min-width: 768px)">
+                    <source srcset="images/hero-mobile-3.jpg" media="(max-width: 767px)">
+                    <img class="w-100" src="images/Trilive-Teaser-banner-03.jpg" alt="Trilive">
+                </picture>
+            </div>
+            <!-- <div class="swiper-slide">
+                <video class="video-desktop hero-video" autoplay muted loop playsinline>
+                  <source src="videos/hero-desktop-1.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                <video class="video-mobile hero-video" autoplay muted loop playsinline>
+                  <source src="videos/hero-mobile-1.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="swiper-slide">
+                <video class="video-desktop hero-video" autoplay muted loop playsinline>
+                  <source src="videos/hero-desktop-2.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                <video class="video-mobile hero-video" autoplay muted loop playsinline>
+                  <source src="videos/hero-mobile-2.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="swiper-slide">
+                <video class="video-desktop hero-video" autoplay muted loop playsinline>
+                  <source src="videos/hero-desktop-3.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                <video class="video-mobile hero-video" autoplay muted loop playsinline>
+                  <source src="videos/hero-mobile-3.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+            </div> -->
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+    <!-- ################################################################################################## -->
+    <!-- ################################################################################################## -->
+    <section class="video-section section-paddingY-60 d-none">
+        <div class="container-xl">
+            <div class="section-heading">
+                <div class="section-heading__title heading-font">Trilive Experience</div>
+            </div>
+            <div class="video-wrap">
+                <div class="row">
+                    <div class="col-md-7 mx-auto">
+                        <a class="video-thumb image-hover-zoom d-block" data-fancybox href="videos/experience-1.mp4">
+                            <i class="fa-solid fa-circle-play"></i>
+                            <img class="w-100" src="images/video-thumnail.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ################################################################################################## -->
+    <!-- ################################################################################################## -->
+    <section id="whyinvest" class="usp-section section-paddingY-60 bg-cream-haze-light">
+        <div class="container-xl">
+            <div class="section-heading">
+                <div class="section-heading__title heading-font">Why Invest in Trilive</div>
+            </div>
+            <div class="usp-wrap pb-3">
+                <div class="row g-3 justify-content-center">
+                    <div class="usp-block-col col-6 col-sm-4 col-md-4 col-lg-4 col-xl">
+                        <div class="usp-block image-hover-zoom bg-white shadow-sm transition">
+                            <figure class="usp-icon bg-sandstone-beige rounded-circle transition"><img class="usp-icon__img" src="images/usp-1.png" alt=""></figure>
+                            <div class="usp-title text-deep-forest">Guaranteed 6% Rentals Every Year</div>
+                            <!-- <div class="usp-block__content transition">
+                                <div class="usp-title text-white">Guaranteed 6% Rentals Every Year</div>
+                                <p class="text-cream-haze">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae dignissimos aperiam voluptate facere volupt</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="usp-block-col col-6 col-sm-4 col-md-4 col-lg-4 col-xl">
+                        <div class="usp-block image-hover-zoom bg-white shadow-sm transition">
+                            <figure class="usp-icon bg-sandstone-beige rounded-circle transition"><img class="usp-icon__img" src="images/usp-2.png" alt=""></figure>
+                            <div class="usp-title text-deep-forest">15% Rent Escalation Every 3 Year</div>
+                            <!-- <div class="usp-block__content transition">
+                                <div class="usp-title text-white">Assured 5% Capital Appreciation</div>
+                                <p class="text-cream-haze">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum illum nihil ullam, dolores i</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="usp-block-col col-6 col-sm-4 col-md-4 col-lg-4 col-xl">
+                        <div class="usp-block image-hover-zoom bg-white shadow-sm transition">
+                            <figure class="usp-icon bg-sandstone-beige rounded-circle transition"><img class="usp-icon__img" src="images/usp-3.png" alt=""></figure>
+                            <div class="usp-title text-deep-forest">Hassle Free Maintenance</div>
+                            <!-- <div class="usp-block__content transition">
+                                <div class="usp-title text-white">Hassle Free Maintenance</div>
+                                <p class="text-cream-haze">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus autem nulla eos recusandae error? Labo</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="usp-block-col col-6 col-sm-4 col-md-4 col-lg-4 col-xl">
+                        <div class="usp-block image-hover-zoom bg-white shadow-sm transition">
+                            <figure class="usp-icon bg-sandstone-beige rounded-circle transition"><img class="usp-icon__img" src="images/usp-4.png" alt=""></figure>
+                            <div class="usp-title text-deep-forest">Professional Property Management</div>
+                            <!-- <div class="usp-block__content transition">
+                                <div class="usp-title text-white">Professional Property Management</div>
+                                <p class="text-cream-haze">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugiat neque quos voluptatum voluptates ut</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="usp-block-col col-6 col-sm-4 col-md-4 col-lg-4 col-xl">
+                        <div class="usp-block image-hover-zoom bg-white shadow-sm transition">
+                            <figure class="usp-icon bg-sandstone-beige rounded-circle transition"><img class="usp-icon__img" src="images/usp-5.png" alt=""></figure>
+                            <div class="usp-title text-deep-forest">Assisted Exit</div>
+                            <!-- <div class="usp-block__content transition">
+                                <div class="usp-title text-white">Assisted Exit</div>
+                                <p class="text-cream-haze">Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Ipsa, rerum, voluptatum iusto et explicab</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="usp-block-col col-6 col-sm-4 col-md-4 col-lg-4 col-xl">
+                        <div class="usp-block image-hover-zoom bg-white shadow-sm transition">
+                            <figure class="usp-icon bg-sandstone-beige rounded-circle transition"><img class="usp-icon__img" src="images/usp-6.png" alt=""></figure>
+                            <div class="usp-title text-deep-forest">World Class Development</div>
+                            <!-- <div class="usp-block__content transition">
+                                <div class="usp-title text-white">World Class Development</div>
+                                <p class="text-cream-haze">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Incidunt odit quasi necessitatibus cumque pariatur</p>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ################################################################################################## -->
+    <!-- ################################################################################################## -->
+    <section id="overview" class="about-section section-paddingY-80 bg-deep-forest">
+        <div class="container-xl">
+            <div class="row g-0">
+                <div class="col-lg-6">
+                    <div class="about-slider">
+                        <img class="w-100" src="images/trilive-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content bg-white h-100">
+                        <div class="about-content__heading heading-font text-deep-forest">ABOUT <span class="text-sandstone-beige">TRILIVE</span></div>
+                        <div class="about-content__description">
+                            <p>Presenting Trilive, A Tribeca Venture, A first of its kind managed rental living concept in India bridging the gap of the highly underserved quality rental housing segment. Estimated to grow $13.9Bn within the next 5 years, this is a smart, future-ready investment for savvy investors. Professionally managed by Housr, Trilive will offer built-to-suit high quality studios offering top-tier service and hassle free maintenance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ################################################################################################## -->
+    <!-- ################################################################################################## -->
+    <section class="developers-section section-paddingY-80">
+        <div class="container-xl">
+            <div class="developer-block">
+                <div class="row g-0">
+                    <div class="col-lg-5 order-2 order-lg-1">
+                        <div class="developer-slider swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img class="w-100" src="images/tribeca-1.jpg" alt=""></div>
+                                <div class="swiper-slide"><img class="w-100" src="images/tribeca-2.jpg" alt=""></div>
+                                <div class="swiper-slide"><img class="w-100" src="images/tribeca-3.jpg" alt=""></div>
+                                <div class="swiper-slide"><img class="w-100" src="images/tribeca-4.jpg" alt=""></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 order-2 order-lg-1">
+                        <div class="developer-content bg-white h-100">
+                            <div class="developer-content__heading heading-font text-deep-forest">ABOUT <span class="text-sandstone-beige">TRIBECA</span></div>
+                            <div class="developer-content__description">
+                                <p>Founded in 2012, Tribeca is India’s leading design focused real estate developer and committed to crafting iconic landmarks that redefine cityscapes.</p>
+                                <p>With each project our simple goal is to make it the most prestigious property in its market – a “Trophy Property”. We benchmark our projects against the world’s best and are the largest developer of Trump branded residences in the world.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="py-4"></div>
+            <div class="developer-block">
+                <div class="row g-0">
+                    <div class="col-lg-7 order-2 order-lg-1">
+                        <div class="developer-content bg-white h-100">
+                            <div class="developer-content__heading heading-font text-deep-forest">ABOUT <span class="text-sandstone-beige">HOUSR</span></div>
+                            <div class="developer-content__description">
+                                <p>Housr, known as the business class of coliving, is India's top luxury-managed accommodation provider, offering a living experience that is par excellence. Exclusively focused on working professionals and the millennial generation, Housr provides a comfortable, connected and curated way of living where one can enjoy all the modern amenities under one roof and an enriching community experience. At Housr, you can enjoy a completely hassle-free life with an array of incredible amenities along with top-notch lifestyle services.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 order-1 order-lg-2">
+                        <div class="developer-slider swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img class="w-100" src="images/housr-1.jpg" alt=""></div>
+                                <div class="swiper-slide"><img class="w-100" src="images/housr-2.jpg" alt=""></div>
+                                <div class="swiper-slide"><img class="w-100" src="images/housr-3.jpg" alt=""></div>
+                                <div class="swiper-slide"><img class="w-100" src="images/housr-4.jpg" alt=""></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="border-secondary-subtle my-0">
+                <div class="stats-wrapper py-4 px-3 px-md-5 bg-cream-haze-light">
+                    <div class="row">
+                        <div class="col-lg col-md-3 col-sm-4 col-6">
+                            <div class="stat-block transition image-hover-zoom">
+                                <div class="stat-block__content">
+                                    <div class="stat-block__number heading-font text-deep-forest"><span class="counter">5</span>+</div>
+                                    <div class="stat-block__description text-deep-forest">Cities</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg col-md-3 col-sm-4 col-6">
+                            <div class="stat-block transition image-hover-zoom">
+                                <div class="stat-block__content">
+                                    <div class="stat-block__number heading-font text-deep-forest"><span class="counter">75</span>+</div>
+                                    <div class="stat-block__description text-deep-forest">Properties</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg col-md-3 col-sm-4 col-6">
+                            <div class="stat-block transition image-hover-zoom">
+                                <div class="stat-block__content">
+                                    <div class="stat-block__number heading-font text-deep-forest"><span class="counter">95</span>%+</div>
+                                    <div class="stat-block__description text-deep-forest">Occupancy</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg col-md-3 col-sm-4 col-6">
+                            <div class="stat-block transition image-hover-zoom">
+                                <div class="stat-block__content">
+                                    <div class="stat-block__number heading-font text-deep-forest"><span class="counter">2000</span>+</div>
+                                    <div class="stat-block__description text-deep-forest">Premium Service Units</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg col-md-3 col-sm-4 col-6">
+                            <div class="stat-block transition image-hover-zoom">
+                                <div class="stat-block__content">
+                                    <div class="stat-block__number heading-font text-deep-forest"><span class="counter">5000</span>+</div>
+                                    <div class="stat-block__description text-deep-forest">Operational Beds</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ################################################################################################## -->
+    <!-- ################################################################################################## -->
+    <section id="amenities" class="features-section section-paddingY-80 section-paddingB-40 bg-deep-forest">
+        <div class="container-xl">
+            <div class="feature-wrap">
+                <div class="row g-2 g-sm-3">
+                    <div class="feature-block-col col-6 col-sm-4 col-md-4 col-lg-4 col-xl">
+                        <div class="feature-block transition shadow-sm text-center">
+                            <div class="feature-block__icon text-sandstone-beige"><i class="fa-solid fa-couch transition"></i></div>
+                            <div class="feature-block__title">Fully-Furnished Apartments</div>
+                        </div>
+                    </div>
+                    <div class="feature-block-col col-6 col-sm-4 col-md-4 col-lg-4 col-xl">
+                        <div class="feature-block transition shadow-sm text-center">
+                            <div class="feature-block__icon text-sandstone-beige"><i class="fa-solid fa-bell-concierge transition"></i></div>
+                            <div class="feature-block__title">Daily Professional Housekeeping</div>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-block-col col-6 col-sm-4 col-md-4 col-lg-4 col-xl">
+                        <div class="feature-block transition shadow-sm text-center">
+                            <div class="feature-block__icon text-sandstone-beige"><i class="fa-solid fa-house-signal transition"></i></div>
+                            <div class="feature-block__title">High-Speed Wif-Fi & Tech Enabled Living</div>
+                        </div>
+                    </div>
+                    <div class="feature-block-col col-6 col-sm-4 col-md-4 col-lg-4 col-xl">
+                        <div class="feature-block transition shadow-sm text-center">
+                            <div class="feature-block__icon text-sandstone-beige"><i class="fa-solid fa-shield transition"></i></div>
+                            <div class="feature-block__title">3-Tier Security System</div>
+                        </div>
+                    </div>
+                    <div class="feature-block-col col-6 col-sm-4 col-md-4 col-lg-4 col-xl">
+                        <div class="feature-block transition shadow-sm text-center">
+                            <div class="feature-block__icon text-sandstone-beige"><i class="fa-solid fa-user-tie transition"></i></div>
+                            <div class="feature-block__title">24/7 Assistance by IHM-Trained Resident Managers</div>
+                        </div>
+                    </div>
+                    <div class="feature-block-col col-6 col-sm-4 col-md-4 col-lg-4 col-xl">
+                        <div class="feature-block transition shadow-sm text-center">
+                            <div class="feature-block__icon text-sandstone-beige"><i class="fa-solid fa-paw transition"></i></div>
+                            <div class="feature-block__title">Pet-Friendly Haven </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ########################################################################################## -->
+            <div id="partner" class="partners-wrap">
+                <div class="partners-wrap__heading text-cream-haze text-center"><span class="bg-deep-forest text-uppercase">Backed by Industry Leaders</span></div>
+                <div class="row">
+                    <div class="col-lg-9 mx-auto">
+                        <div class="row align-items-center">
+                            <div class="col-6 col-md-6 col-lg-3">
+                                <div class="partner-block"><img class="img-fluid mx-auto d-block" src="images/partner-4.png" alt=""></div>
+                            </div>
+                            <div class="col-6 col-md-6 col-lg-3">
+                                <div class="partner-block"><img class="img-fluid mx-auto d-block" src="images/partner-2.png" alt=""></div>
+                            </div>
+                            <div class="col-6 col-md-6 col-lg-3">
+                                <div class="partner-block"><img class="img-fluid mx-auto d-block" src="images/partner-1.png" alt=""></div>
+                            </div>
+                            <div class="col-6 col-md-6 col-lg-3">
+                                <div class="partner-block"><img class="img-fluid mx-auto d-block" src="images/partner-3.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ################################################################################################## -->
+    <!-- ################################################################################################## -->
+    <section class="gallery-section section-paddingY-80">
+        <div class="container-xl px-lg-4">
+            <div class="section-heading">
+                <div class="section-heading__title heading-font">HOUSR Gallery</div>
+            </div>
+            <div class="video-wrap text-center">
+                <div class="row justify-content-center gx-lg-5">
+                    <div class="col-sm-6 col-md-4">
+                        <a class="video-thumb image-hover-zoom d-block" data-fancybox href="videos/reel-1.mp4">
+                            <i class="fa-solid fa-circle-play"></i>
+                            <figure class="overflow-hidden mb-0"><img class="w-100" src="images/reel-1.jpg" alt=""></figure>
+                            <!-- <span class="video-thumb__caption text-deep-forest pt-3 d-block">Video Caption</span> -->
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="video-thumb image-hover-zoom d-block" data-fancybox href="videos/reel-2.mp4">
+                            <i class="fa-solid fa-circle-play"></i>
+                            <figure class="overflow-hidden mb-0"><img class="w-100" src="images/reel-2.jpg" alt=""></figure>
+                            <!-- <span class="video-thumb__caption text-deep-forest pt-3 d-block">Video Caption</span> -->
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="video-thumb image-hover-zoom d-block" data-fancybox href="videos/reel-3.mp4">
+                            <i class="fa-solid fa-circle-play"></i>
+                            <figure class="overflow-hidden mb-0"><img class="w-100" src="images/reel-3.jpg" alt=""></figure>
+                            <!-- <span class="video-thumb__caption text-deep-forest pt-3 d-block">Video Caption</span> -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ################################################################################################## -->
+    <!-- ################################################################################################## -->
+    <section id="location" class="location-section section-paddingY-80 bg-deep-forest">
+        <div class="container-xl">
+            <div class="section-heading">
+                <div class="section-heading__title heading-font text-white">Location Connectivity</div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-7 col-xl-8">
+                    <a class="location-block" style="background-image: url(images/location-map.jpg);" href="https://maps.app.goo.gl/mNoZStpVMNXWaZqg9" target="_blank"></a>
+                </div>
+                <div class="col-lg-5 col-xl-4">
+                    <div class="nearby-block bg-light-subtle">
+                        <div class="nearby-block__inner">
+                            <div class="nearby-block__title text-deep-forest">Seamless Connectivity</div>
+                            <div class="nearby-block__row d-flex justify-content-between align-items-center transition">
+                                <div class="flex-grow-1">
+                                    <div class="d-flex flex-row fw500">
+                                        <i class="fa-solid fa-train-subway text-sandstone-beige nearby-block__icon"></i> Metro Station
+                                    </div>
+                                </div>
+                                <div class="flex-shrink-0 nearby-block__distance">1.5 kms</div>
+                            </div>
+                            <div class="nearby-block__row d-flex justify-content-between align-items-center transition">
+                                <div class="flex-grow-1">
+                                    <div class="d-flex flex-row fw500">
+                                        <i class="fa-solid fa-plane text-sandstone-beige nearby-block__icon"></i> Airport
+                                    </div>
+                                </div>
+                                <div class="flex-shrink-0 nearby-block__distance">3.5-12.5 kms</div>
+                            </div>
+                            <div class="nearby-block__row d-flex justify-content-between align-items-center transition">
+                                <div class="flex-grow-1">
+                                    <div class="d-flex flex-row fw500">
+                                        <i class="fa-solid fa-hospital text-sandstone-beige nearby-block__icon"></i> Seven Hills Hospital
+                                    </div>
+                                </div>
+                                <div class="flex-shrink-0 nearby-block__distance">100m</div>
+                            </div>
+                            <div class="nearby-block__row d-flex justify-content-between align-items-center transition">
+                                <div class="flex-grow-1">
+                                    <div class="d-flex flex-row fw500">
+                                        <i class="fa-solid fa-hospital text-sandstone-beige nearby-block__icon"></i> City Hospital
+                                    </div>
+                                </div>
+                                <div class="flex-shrink-0 nearby-block__distance">3.2 kms</div>
+                            </div>
+                            <div class="nearby-block__row d-flex justify-content-between align-items-center transition">
+                                <div class="flex-grow-1">
+                                    <div class="d-flex flex-row fw500">
+                                        <i class="fa-solid fa-utensils text-sandstone-beige nearby-block__icon"></i> Fine Dining Restaurant
+                                    </div>
+                                </div>
+                                <div class="flex-shrink-0 nearby-block__distance">0.9 kms</div>
+                            </div>
+                            <div class="nearby-block__row d-flex justify-content-between align-items-center transition">
+                                <div class="flex-grow-1">
+                                    <div class="d-flex flex-row fw500">
+                                        <i class="fa-solid fa-school text-sandstone-beige nearby-block__icon"></i> International School
+                                    </div>
+                                </div>
+                                <div class="flex-shrink-0 nearby-block__distance">2.8 kms</div>
+                            </div>
+                            <div class="nearby-block__row d-flex justify-content-between align-items-center transition">
+                                <div class="flex-grow-1">
+                                    <div class="d-flex flex-row fw500">
+                                        <i class="fa-solid fa-shopping-cart text-sandstone-beige nearby-block__icon"></i> Supermarket
+                                    </div>
+                                </div>
+                                <div class="flex-shrink-0 nearby-block__distance">1.0 kms</div>
+                            </div>
+                            <div class="nearby-block__row d-flex justify-content-between align-items-center transition">
+                                <div class="flex-grow-1">
+                                    <div class="d-flex flex-row fw500">
+                                        <i class="fa-solid fa-dumbbell text-sandstone-beige nearby-block__icon"></i> Fitness Center
+                                    </div>
+                                </div>
+                                <div class="flex-shrink-0 nearby-block__distance">1.7 kms</div>
+                            </div>
+                            <div class="nearby-block__row d-flex justify-content-between align-items-center transition">
+                                <div class="flex-grow-1">
+                                    <div class="d-flex flex-row fw500">
+                                        <i class="fa-solid fa-landmark text-sandstone-beige nearby-block__icon"></i> Business Hub
+                                    </div>
+                                </div>
+                                <div class="flex-shrink-0 nearby-block__distance">4.5 kms</div>
+                            </div>
+                            <div class="nearby-block__row d-flex justify-content-between align-items-center transition">
+                                <div class="flex-grow-1">
+                                    <div class="d-flex flex-row fw500">
+                                        <i class="fa-solid fa-tree text-sandstone-beige nearby-block__icon"></i> Central Park
+                                    </div>
+                                </div>
+                                <div class="flex-shrink-0 nearby-block__distance">2.0 kms</div>
+                            </div>
+                            <div class="nearby-block__row d-flex justify-content-between align-items-center transition">
+                                <div class="flex-grow-1">
+                                    <div class="d-flex flex-row fw500">
+                                        <i class="fa-solid fa-film text-sandstone-beige nearby-block__icon"></i> Cinema Theatre
+                                    </div>
+                                </div>
+                                <div class="flex-shrink-0 nearby-block__distance">3.8 kms</div>
+                            </div>
+                            
+                            <a class="btn btn-dark btn-sm py-2 px-4 mt-3" href="https://maps.app.goo.gl/mNoZStpVMNXWaZqg9" target="_blank">VIEW ON GOOGLE MAPS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ################################################################################################## -->
+    <!-- ################################################################################################## -->
+    <section class="contact-section section-paddingY-80">
+        <div class="container-xl">
+            <div class="section-heading">
+                <div class="section-heading__title heading-font">Get in Touch</div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-9 col-md-10 mx-auto">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-md-4 mb-3 mb-md-4">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control rounded-0" id="name" placeholder="Name*">
+                                    <label for="name">Name*</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3 mb-md-4">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control rounded-0" id="phone" placeholder="Phone*">
+                                    <label for="phone">Phone*</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3 mb-md-4">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control rounded-0" id="email" placeholder="name@example.com">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3 mb-md-4">
+                                <div class="form-floating">
+                                    <textarea class="form-control rounded-0" placeholder="Type Your Message" id="typemessage" style="height: 80px"></textarea>
+                                    <label for="typemessage">Type Your Message</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button class="btn btn-prime btn-lg w-100 py-3">SUBMIT</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="py-4">
+                        <hr>
+                    </div>
+                    <div class="row g-3 option-cta">
+                        <!-- <div class="col-md-6 mx-auto">
+                            <a class="btn btn-outline-dark btn-lg w-100 py-3 heading-font fs18" href="#">
+                                Download Brochure 
+                                <i class="fa-solid fa-file-pdf ms-2 text-sandstone-beige"></i>
+                            </a>
+                        </div> -->
+                        <div class="col-md-6 mx-auto">
+                            <a class="btn btn-outline-dark btn-lg w-100 py-3 heading-font fs18" href="#" data-bs-toggle="modal" data-bs-target="#formModal">
+                                Schedule Site Visit 
+                                <i class="fa-solid fa-calendar-day ms-2 text-sandstone-beige"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ################################################################################################## -->
+    <!-- ################################################################################################## -->
+    <footer class="main-footer bg-deep-forest">
+        <div class="container-xl">
+            <div class="row footer-top justify-content-center justify-content-md-between align-items-center text-center">
+                <div class="col-md-auto fs13 text-white opacity9 py-3 py-sm-2">
+                    ©2025 Trilive. All Rights Reserved
+                </div>
+                <!-- <div class="col-sm-auto social-handles py-3 py-sm-2">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div> -->
+            </div>
+            <hr class="border-light border-1 opacity-25 my-3">
+            <div class="row justify-content-center justify-content-sm-between align-items-center text-center">
+                <div class="col-sm-auto py-3 py-sm-2">
+                    <a class="btn btn-prime btn-sm" href="#" data-bs-toggle="modal" data-bs-target="#disclaimerModal">Disclaimer</a>
+                </div>
+                <div class="col-sm-auto py-3 py-sm-2">
+                    <div class="d-flex flex-column flex-sm-row gap-3 align-items-center">
+                        <span class="text-white fs13">RERA</span>
+                        <img class="qr img-fluid" src="images/qr.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FORM MODAL -->
+    <div class="modal fade" id="formModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true">
+        <div class="modal-dialog rounded-0 modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="formModalLabel">Schedule Site Visit</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body fs14 p-4">
+                    <form method="POST" action="">
+                        <div class="row">
+                            <div class="col-md-4 mb-3 mb-md-4">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control rounded-0" id="name" name="fullname" placeholder="Name*">
+                                    <label for="name">Name*</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3 mb-md-4">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control rounded-0" id="phone" name="mobile" placeholder="Phone*">
+                                    <label for="phone">Phone*</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3 mb-md-4">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control rounded-0" id="email" name="emailid" placeholder="name@example.com">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" name="esubmit" class="btn btn-prime btn-lg w-100 py-3">SUBMIT DETAILS</button>
+                            </div>
+                        </div>
+                    </form>  
+
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-prime" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ################################################################################################## -->
+    <!-- ################################################################################################## -->
+    <!-- DISCLAIMER MODAL -->
+    <div class="modal fade" id="disclaimerModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="disclaimerModalLabel" aria-hidden="true">
+        <div class="modal-dialog rounded-0 modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="disclaimerModalLabel">Disclaimer</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body fs14">
+                    <p>Maharera no. P51800053082</p>
+                    <p>Maharera website address: <a class="text-dark fw500" href="https://maharera.maharashtra.gov.in" target="_blank">https://maharera.maharashtra.gov.in</a></p>
+                    <p>The Project is financed by TATA Capital Housing Finance Limited.</p>
+                    <p>This project is developed by Starwing Real Estate Company (“Promoter”) and Tribeca is a strategic partner to Promoter for the Project and has permitted Promoter to use the name/mark “Trilive” with reference to the Project. Images, specifications and sizes herein are indicative/ artistic impressions and subject to change.</p>
+                    <p>This material is to be used only for market study and research purpose and does not constitute an offer and/or contract and/ or any intention thereof.</p>  
+
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-prime" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ################################___________STICKY__BOTTOM__FORM____________################################ -->
+    <div class="fixed-enquiryform transition">
+        <span class="closeStyckyForm">close Form <i class="fa-solid fa-xmark"></i></span>
+        <div class="container-xxl px-md-4 py-3 py-md-0">
+            <form method="POST" action="">
+                <div class="row gx-3">
+                    <div class="col-md">
+                        <div class="row gx-2 pb-2 pb-md-0">
+                            <div class="col-md-4 py-1 py-md-2">
+                                <input class="form-control" type="text" id="fullname" name="fullname" placeholder="Enter Full Name*" required>
+                            </div>
+                            <div class="col-md-4 py-1 py-md-2">
+                                <input class="form-control" type="text" id="mobile" name="mobile" placeholder="Enter Mobile*" required>
+                            </div>
+                            <div class="col-md-4 py-1 py-md-2">
+                                <input class="form-control" type="email" id="emailid" name="emailid" placeholder="Enter Email ID*" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-auto py-0 py-md-2">
+                        <button type="submit" name="esubmit" class="btn btn-dark px-4 w-100">SUBMIT</button>
+                    </div>
+                </div>        
+            </form>
+        </div>
+    </div>
+    <div class="sticky-enquiry-btn">
+        <a class="btn btn-prime w-100 enquirystickybtn" href="javascript:void(0);">Enquire Now</a>
+    </div>
+    <!-- ################################___________STICKY__BOTTOM__FORM____________################################ -->
+    
+    
+    
+
+
+<!-- Modal for Request a Callback Popup-->
+<div class="modal fade" id="callback" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content contact-block rounded-0">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Request a Callback</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form method="POST" action="">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control rounded-0" id="fullname" name="fullname" placeholder="Full Name*" required>
+                        <label for="fullname">Full Name <span>*</span></label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control rounded-0" id="emailid" name="emailid" placeholder="Email ID*" required>
+                        <label for="emailid">Email ID <span>*</span></label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control rounded-0" id="mobile" name="mobile" placeholder="Mobile No.*" required>
+                        <label for="mobile">Mobile No. <span>*</span></label>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+                        <label class="form-check-label fs12" for="flexCheckDefault">
+                            By submitting this enquiry, you authorize Tribeca Developers & its associate entities to contact you via SMS/Email/Phone/WhatsApp/Facebook or any other mode for Project updates and promotions of Tribeca Developers & its associate entitiesT&C
+                        </label>
+                    </div>
+                    <div class="col-lg-12">
+                        <button type="submit" name="esubmit" class="btn btn-dark btn-lg w-100 py-3">SUBMIT DETAILS</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- JQUERY LIBRARY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- LATEST BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- FANCYBOX JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- WAYPOINT JS-->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <!-- COUNTERUP JS -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script> -->
+    <!-- CUSTOM JS -->
+    <script src="js/custom.js"></script>
+    
+        <!-- Add this script after jQuery but before other scripts -->
+<script>
+$(document).ready(function() {
+    // Show callback popup after scrolling 50% of page
+    $(window).scroll(function() {
+       if($(window).scrollTop() > ($(document).height() / 5)) {
+              if(!localStorage.getItem('callbackShown')) {
+                $('#callback').modal('show');
+                localStorage.setItem('callbackShown', 'true');
+            }
+        }
+    });
+});
+
+
+/*MOBILE NAVBAR CLOSE ON CLICK*/ 
+document.addEventListener('DOMContentLoaded', function() {
+    const mobileBreakpoint = 991.98;  
+    function isMobileView() {
+        return window.innerWidth < mobileBreakpoint;
+    }
+    function closeMobileMenu() {
+        const navbarToggler = document.querySelector('.navbar-toggler');
+        const navbarCollapse = document.querySelector('.navbar-collapse');
+        if (navbarToggler && navbarCollapse) {
+        navbarToggler.classList.add('collapsed');
+        navbarCollapse.classList.remove('show');
+        const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse) || 
+        new bootstrap.Collapse(navbarCollapse, { toggle: false });
+        bsCollapse.hide();
+        }
+    }
+   
+    document.querySelectorAll('.nav-link[href^="#"]').forEach(link => {
+        link.addEventListener('click', function(e) {
+        if (isMobileView()) {
+            closeMobileMenu();
+        }
+        });
+    });
+    
+    document.querySelectorAll('.dropdown-item[href^="#"]').forEach(item => {
+        item.addEventListener('click', function() {
+        if (isMobileView()) {
+            closeMobileMenu();
+        }
+        });
+    });
+});
+</script>
+</body>
+
+</html>
